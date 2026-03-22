@@ -12,12 +12,31 @@
 
 .slidev-layout {
   background: var(--zrp-background);
+  color: #ffffff;
 
   h1 {
     font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
   }
-  
-  h2, h3, h4, h5, h6 {
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+  }
+
+  p {
+    color: #ffffff;
+  }
+
+  li {
+    color: #ffffff;
+  }
+
+  a {
+    color: var(--zrp-primary);
   }
 }
