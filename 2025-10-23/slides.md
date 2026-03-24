@@ -1,5 +1,5 @@
 ---
-theme: ./zrp-slidev-theme
+theme: ../zrp-slidev-theme
 title: Otimização de CI/CD para Aplicações NestJS
 mdc: true
 ---
@@ -8,6 +8,10 @@ mdc: true
   <span class="primary">Otimização</span> de <span class="tertiary">CI/CD</span> para Aplicações <span class="secondary">NestJS</span>
 </h1>
 
+
+---
+src: ../reuse/intro.md
+---
 
 ---
 layout: content
