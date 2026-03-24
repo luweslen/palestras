@@ -1,26 +1,40 @@
 {
-  "name": "palestra-otimizaco-de-ci-cd-para-aplicaces-nestjs",
+  "name": "palestras",
+  "description": "Repositório centralizado para palestras",
   "type": "module",
   "private": true,
+  "workspaces": [
+    "20*"
+  ],
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "tsx scripts/picker.ts dev",
+    "build": "yarn workspaces run build",
+    "export": "tsx scripts/picker.ts export",
+    "lint": "eslint .",
+    "update": "tsx scripts/redirects.ts"
   },
   "dependencies": {
+    "@iconify-json/ri": "1.2.5",
     "@slidev/cli": "51.3.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "@unocss/preset-icons": "0.65.0",
     "vue": "3.5.13"
   },
   "devDependencies": {
     "@eslint/js": "9.21.0",
     "@stylistic/eslint-plugin": "4.2.0",
+    "@types/node": "20.0.0",
+    "@types/prompts": "2.4.9",
     "eslint": "9.21.0",
     "eslint-plugin-vue": "9.32.0",
+    "execa": "9.5.2",
+    "fast-glob": "3.3.3",
     "globals": "16.0.0",
     "playwright-chromium": "1.50.1",
+    "prompts": "2.4.2",
+    "tsx": "4.19.2",
     "typescript-eslint": "8.26.0"
   },
-  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  "packageManager": "yarn@3.8.7"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsx ../scripts/build.ts /2025/otimizacao-de-ci-cd-para-aplicaces-nestjs",
+    "dev": "slidev --open",
+    "export": "slidev export --output ./2025-10-23-otimizacao-ci-cd-nestjs.pdf"
+  }
+}
