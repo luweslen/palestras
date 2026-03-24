@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "tsx scripts/picker.ts dev",
-    "build": "rimraf dist && yarn workspaces foreach --all run build",
+    "build": "rm -rf dist && yarn workspaces foreach --all run build",
     "export": "tsx scripts/picker.ts export",
     "lint": "eslint .",
     "update": "tsx scripts/redirects.ts"

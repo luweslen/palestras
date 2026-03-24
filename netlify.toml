@@ -1,0 +1,32 @@
+[build]
+publish = "dist"
+command = "yarn build"
+
+[build.environment]
+NODE_VERSION = "20"
+PLAYWRIGHT_BROWSERS_PATH = "0"
+
+[[redirects]]
+from = "/2025-10-23/pdf"
+to = "https://github.com/luweslen/palestras/blob/main/2025-10-23/2025-10-23-otimizacao-ci-cd-nestjs.pdf?raw=true"
+status = 302
+
+[[redirects]]
+from = "/2025-10-23/pdf"
+to = "https://github.com/luweslen/palestras/blob/main/2025-10-23/2025-10-23-otimizacao-ci-cd-nestjs.pdf?raw=true"
+status = 302
+
+[[redirects]]
+from = "/2025-10-23/src"
+to = "https://github.com/luweslen/palestras/tree/main/2025-10-23"
+status = 302
+
+[[redirects]]
+from = "/2025-10-23/*"
+to = "/2025-10-23/index.html"
+status = 200
+
+[[redirects]]
+from = "/"
+to = "https://github.com/luweslen/palestras"
+status = 302
