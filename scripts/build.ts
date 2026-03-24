@@ -26,7 +26,7 @@ if (existsSync(dirStale)) {
 else {
   console.log('No stale directory found, building');
 
-  const command = ['slidev', 'build', '--base', base, '--out', `../../dist${base}`, ...args];
+  const command = ['slidev', 'build', '--base', base, '--out', `../dist${base}`, ...args];
 
   console.log('Building', command.join(' '));
 
