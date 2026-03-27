@@ -11,6 +11,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"2026-03-27-aa6025@workspace:2026-03-27":
+  version: 0.0.0-use.local
+  resolution: "2026-03-27-aa6025@workspace:2026-03-27"
+  languageName: unknown
+  linkType: soft
+
 "@antfu/install-pkg@npm:^1.0.0, @antfu/install-pkg@npm:^1.1.0":
   version: 1.1.0
   resolution: "@antfu/install-pkg@npm:1.1.0"
