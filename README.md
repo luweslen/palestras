@@ -2,9 +2,14 @@
 
 Slides & código das minhas palestras, usando [Slidev](https://sli.dev/).
 
+
+## 2026
+
+- [Apadrinhamento: Por que você deveria ser padrinho ou madrinha?](./2026-03-27)
+
 ## 2025
 
-- `pt-BR` [Otimização de CI/CD para Aplicações NestJS](./2025-10-23)
+- [Otimização de CI/CD para Aplicações NestJS](./2025-10-23)
 
 ## 🎨 Tema Compartilhado
 
