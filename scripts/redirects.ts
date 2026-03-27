@@ -76,7 +76,7 @@ ${redirects}
 
 [[redirects]]
 from = "/"
-to = "https://github.com/luweslen/palestras"
+to = "https://luweslen.com/talks"
 status = 302
 `;
 
